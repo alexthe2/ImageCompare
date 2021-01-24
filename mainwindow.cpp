@@ -51,10 +51,6 @@ auto MainWindow::removeAll() -> void {
         }
     }
 
-    for(auto zoom : this->zoomers) {
-        delete zoom;
-    }
-
     this->zoomers.clear();
     this->elements.clear();
 }
